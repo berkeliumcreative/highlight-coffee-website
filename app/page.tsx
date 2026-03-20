@@ -2,7 +2,7 @@
 "use client";
 
 import content from "../data/content.json";
-import { HeroGradient } from "@/components/ui/hero-gradient";
+import { HeroImageBg } from "@/components/ui/hero-image-bg";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { BlurFade } from "@/components/ui/blur-fade";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -20,12 +20,7 @@ const iconMap: Record<string, any> = { Coffee, Zap, GlassWater, Croissant };
 export default function Page() {
   return (
     <main className="min-h-screen bg-background text-foreground">
-      <HeroGradient
-        heading={content.hero.heading}
-        subheading={content.hero.subheading}
-        ctaText={content.hero.ctaText}
-        ctaLink={content.hero.ctaLink}
-      />
+      <HeroImageBg heading={content.hero.heading} subheading={content.hero.subheading} ctaText={content.hero.ctaText} ctaLink={content.hero.ctaLink} backgroundImage={content.hero.backgroundImage} />
 
       <StatsSection
         stats={[
@@ -72,6 +67,20 @@ export default function Page() {
           })}
         </div>
       </section>
+
+
+      {content.gallery && (
+        <section className="py-16">
+          <SectionHeading title={content.gallery.heading} />
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl mx-auto px-6 mt-8">
+            {content.gallery.images.map((img: any, i: number) => (
+              <BlurFade key={i} delay={0.1 * i}>
+                <img src={img.src} alt={img.alt} className="w-full h-64 object-cover rounded-lg" />
+              </BlurFade>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="py-20 md:py-28 max-w-6xl mx-auto px-6">
         <SectionHeading title="What Coffee Lovers Say" />
