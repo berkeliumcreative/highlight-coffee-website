@@ -5,7 +5,8 @@
     "heading": "Coffee Worth Highlighting",
     "subheading": "Specialty-grade beans, precision brewing, and a modern space designed for coffee lovers — right on East Broadway in Glendale.",
     "ctaText": "Our Menu",
-    "ctaLink": "#drinks"
+    "ctaLink": "#drinks",
+    "backgroundImage": "https://places.googleapis.com/v1/places/ChIJpy6YKgHBwoARTQ34c-i1nBk/photos/ATCDNfVbHE_c3qs4IxSPQbCRtloYOJBJPBkczCLIK3PFzUDvU5JIhSshT-uTd44o1gApGguipZ86M_GIRK9Kg3VtM2EdrO2bZF9LYJh8ZpZ-EnFmWFTlHpZRuvexbVLAKUhL8qOnqg0OIDh7IT3XMPMMnPOsTEbyg9C0OTn0VoF3dXt3cv5ksUgtDqFU5HkdNhJCdEx2cRC8cwEwexzYzpFDa9W1gzV1XXDUc7Duki3b5hh5idWKszmjHf2Hz-HMgdbqDZmnF6ywJyqAeT39jMelNT7TIQIBOVBOZfa5guPR8v49yI-G8H7nSanDITXtFCfVbupQXsnzWzs2k1gpYYHZWp4-mrff_zX2MUQzX0enfXQ1GgoVZeiGqFLZNk79-c-D8QOlJMXoiRm1FX4JIooGURZnacmxSChU_8eJ1hy1oT40IoVn3-3yXwedZXUdpEly/media?maxWidthPx=1200&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro"
   },
   "about": {
     "heading": "About Highlight",
@@ -84,5 +85,34 @@
     "primaryColor": "#0f172a",
     "accentColor": "#f59e0b",
     "fontFamily": "modern"
+  },
+  "gallery": {
+    "heading": "Gallery",
+    "images": [
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJpy6YKgHBwoARTQ34c-i1nBk/photos/ATCDNfWL1C4rgPT-A1GczrVCcOBJcuEmtfWrbIU_LfRyDK6ixY8X5mKhM44lMOIefMrXrgGSTdgP4JRRNGsuD5x7JpOc5y4dTcsbn1y1Lmyo29cbCse3j63HO94G0BjOfaTfdKC63wauGkkXi3_4clUV2TehEzziy5SwpYSk1P96BmWxj9B9YuzJHlms70cRi-ZpURZ0cHah_dQZwvRD0rwUeAi2pYELFLu42rik5YJmCxu14ADMNoerBaSk8Cidwg422ASQGNbLiCMe4aMV_MLfBIpwk6XW4DW3fWQgtQOGy6CIcoV1fsM_lzHCFwwuWBoGa4jPWfmuKcjUOzhpWwXHNYUmCc5mwUH_1gWSFzIqZrWjFjuBygKHFPt_TIneU5KXXgWBLXljA3s5swJcesbzQDDmh9pD2FDL1bW1PnlAfPepgGYmb9J_qrcbl42ArQ/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "Highlight Coffee photo 1"
+      },
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJpy6YKgHBwoARTQ34c-i1nBk/photos/ATCDNfVJBCw0Ttbtq9ZOZGvP3qAVv0XFLm417GoGD7GIlv0VNUSMPwFD6aHopCrkCtdyTXzHF2s_FRj7huw-njj44gI0SJ3GYNPD8Dgi6DUNMgKCPSx-XrjblENxdU484tH73xlg5VxrKJkHUjFygomCubHLu1mbHBofb2afWIOyEovILxDINK5ANRFK3XBO-8WSdYCYrPDcLeVFbygnA0IdnKS475zD23psBlOClcwYJmqldVuXIsx5TDCRasNOUWXiaKtbcQv8EzpDHWoN7BtSrqCQEcxjQtLMM2rdHktaxJcs0t1pbHlWIu7f9GEBq0wLZsJVlvYzOMVPekqbJVklslV8UFKFfzy4ubtJo8KBuDdC1DYwrdQnodGxKPSmfx9CAS59dvEuAoeE6cQByX3r2mtA6V4TsbaJhLyG1UF4wyM/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "Highlight Coffee photo 2"
+      },
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJpy6YKgHBwoARTQ34c-i1nBk/photos/ATCDNfV--zZiuqgXh-51hN4_stZSHZ_dCjVCHsmiGTEMwQn_muuzhMURWQaqg_kAqJ_X-xiN9Iq5KdQ5clrVB40VZMerN240oJmCmF7UUIXqgGSlfC3N7r4zzcwBQnOG79mB28PItvc8kOcsD9vSg-r0tEAP0-LVJpTNuQB5c4ePzjLqtmkU4YY_leMgDO-VESdKM8JuWPnLryrR2__iFfFqObsBMyprPsBR044ChcXIij2GZ_kJb05qB5qgOnx00rQt1FtzxMh08xCmyEwCVM11BlN0Z4_kY4sGLjrapVj8lpqbxGy6esr71EGP86vqhdvOPxZEjWa_u_50iQluvyMG30M4sLYdfzR8KS-ex6eCaveqdWFy6XYCV5Szw6W-cs_ajVFC9RJvn6EZ-NCnxRJzUb-cgTtfTEhztnTDdGzV046cWA/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "Highlight Coffee photo 3"
+      },
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJpy6YKgHBwoARTQ34c-i1nBk/photos/ATCDNfUiKg3svGGCFdG4qTAFICcYdXSASqz7b4OYTA-E8ik66Atw0m5LkjOK7QuGhnXw3qIXeL4B4LzMKucnKxMp4M1np60I6onTyVivw5rvB7oD8hNJ2UgADwyvEHnEVFqOmmjPAcqWggopwCe0TZtGoKulgim3iS7idCUKCgDHymgUvPb81MG4tMWQNRzYbAXuD1OpBnEglqxBGmsAsbunp13ckoHPmoj37K9Tq6AIbJAOZf5UXkRUQ7iG0ZVMBCbLNhMjUledyEGSgAsdrKWY80SF0AmTsZsgMB5T-J31WKbOCljDWaO98wHhTVpxUnpk8qCA77v9R1a9PfSyoeuycuIj1i4Vf6AqqCpQ2lglXVCY70UeRPRlpRBDHz8pumU98fJaT4tC_0ZE9a325uMhq_MpqIPeqfRxi7Y3yybaqM73Vw/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "Highlight Coffee photo 4"
+      },
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJpy6YKgHBwoARTQ34c-i1nBk/photos/ATCDNfVOJ4UvVfD3aODYsoDdqK0XBJHxjLnYHLMDQ8qIPafJUGZzPTNDDJiE-8Rd3gwS3kLwGIpcs0ytXzvHegkQZZEh7gaF6S7qOFSBSlwaRVRKpJeWsTp_uwy4zK9P-os71MdEWoc9G3HEWhC03Q7Dia-FrBLmJW0iQDVaaswfPZin9QbTquWCjaST5vCuqBwl-zE8kjdeJ3XtAwNBUmxkiX1YHW01U8-9MvSL9kWdSfMvJ7CgV_wpt67jENLZ7iqo4F2MU2tv4YZ_pbeYpy9u5nZSpfCx3H1RGe-saeXKtlh2wQj7gl6ZN0JGwHT4dzbM1vzJOaZjNiQpJBM4HisQLqqqoYJgTDsS4GnPBuPUhNpyBIAKrfmB05oQlJ160ddBkjxO_VkwGntYb-rqn1Gyje5wB_z6xfdlB1woBXRYjVZ6erN0/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "Highlight Coffee photo 5"
+      },
+      {
+        "src": "https://places.googleapis.com/v1/places/ChIJpy6YKgHBwoARTQ34c-i1nBk/photos/ATCDNfXTHQPHX3WSeRgLWja0GIKm81uWQvAqJHdqhJ10tRn0bxJ7ujLVJ1xvMV_lnpEtVEsZfIymZEAVJo1eVuR_g0zV6ZNdLKyp_QPuiJzhFmd0rHx83WJPEWYxRNp6dcnUJRnWZuk3uYoHAM7VWrg_fS-3dF0alt0RAnGS6UmY6-kVV9FgAiBw9CNuLNzCu9gEYqgBtiSQP0LVcV5wfsu9nJNKD5EnjWWvnIOJK5LP2fdNA44MQEY2w-5bN6PcsXt1pbLycZQT4K3ZmnWJELjsZ6v3RREHaTGvzx1iWqsOL-8nwMbHFlpGIxlfg4L340I4WEH0G84cGVlTSfBL5-xQgy4X6VkQnu3UYoFLvoaqEqtBETxmHvhxn4xA3go0IYs4EmZuEPxA7wk1lhACGVBDfUQ4-ypi9edACLK99x1WG4kO4eUH/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "Highlight Coffee photo 6"
+      }
+    ]
   }
 }
