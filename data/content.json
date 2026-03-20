@@ -1,0 +1,47 @@
+{
+  "businessName": "Sample Business",
+  "tagline": "Quality Service You Can Trust",
+  "hero": {
+    "heading": "Welcome to Our Business",
+    "subheading": "Professional service in your area.",
+    "ctaText": "Contact Us",
+    "ctaLink": "#contact"
+  },
+  "about": {
+    "heading": "About Us",
+    "paragraphs": [
+      "We are a local business dedicated to providing quality service.",
+      "Our team has years of experience and we take pride in our work."
+    ]
+  },
+  "services": [
+    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
+    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
+    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+  ],
+  "contact": {
+    "address": "123 Main St, City, ST 12345",
+    "phone": "(555) 123-4567",
+    "email": "info@sample.com",
+    "hours": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 5:00 PM",
+      "Thursday": "9:00 AM - 5:00 PM",
+      "Friday": "9:00 AM - 5:00 PM",
+      "Saturday": "10:00 AM - 3:00 PM",
+      "Sunday": "Closed"
+    },
+    "mapEmbedQuery": "123+Main+St+City+ST"
+  },
+  "seo": {
+    "title": "Sample Business | City, ST",
+    "description": "Sample Business in City, ST. Professional services you can trust.",
+    "keywords": ["sample business", "city ST", "professional services"]
+  },
+  "theme": {
+    "primaryColor": "#0a0a0a",
+    "accentColor": "#c8a97e",
+    "fontFamily": "modern"
+  }
+}

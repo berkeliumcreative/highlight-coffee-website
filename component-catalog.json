@@ -1,0 +1,1825 @@
+{
+  "version": "1.0",
+  "totalComponents": 200,
+  "categories": {
+    "hero": 10,
+    "nav": 4,
+    "card": 24,
+    "button": 10,
+    "text-effect": 14,
+    "counter": 5,
+    "scroll-reveal": 5,
+    "layout": 26,
+    "background": 9,
+    "business": 29,
+    "gallery": 10,
+    "ui-primitive": 17,
+    "badge-list": 9,
+    "footer": 3,
+    "special-effect": 13,
+    "divider": 5,
+    "testimonial": 7
+  },
+  "components": [
+    {
+      "name": "AccentLine",
+      "file": "accent-line.tsx",
+      "category": "divider",
+      "description": "Decorative accent line using the theme accent color",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className"]
+    },
+    {
+      "name": "Accordion",
+      "file": "accordion.tsx",
+      "category": "ui-primitive",
+      "description": "Expandable accordion with animated open/close transitions",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "className", "allowMultiple"]
+    },
+    {
+      "name": "AnimatedBackground",
+      "file": "animated-background.tsx",
+      "category": "background",
+      "description": "Animated background wrapper with gradient-shift, floating-orbs, or mesh variants",
+      "businessTypes": ["any"],
+      "themes": ["dark", "any"],
+      "props": ["children", "className", "variant"]
+    },
+    {
+      "name": "AnimatedBorderCard",
+      "file": "animated-border-card.tsx",
+      "category": "card",
+      "description": "Card with an animated rotating gradient border effect",
+      "businessTypes": ["any"],
+      "themes": ["dark", "any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "AnimatedCounter",
+      "file": "animated-counter.tsx",
+      "category": "counter",
+      "description": "Number that animates from zero to target value when scrolled into view",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["value", "prefix", "suffix", "duration"]
+    },
+    {
+      "name": "AnimatedDivider",
+      "file": "animated-divider.tsx",
+      "category": "divider",
+      "description": "Section divider with animated line, gradient, dots, or fade variants",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className", "variant"]
+    },
+    {
+      "name": "AnimatedGradientBorder",
+      "file": "animated-gradient-border.tsx",
+      "category": "special-effect",
+      "description": "Wrapper that adds an animated rotating gradient border around content",
+      "businessTypes": ["any"],
+      "themes": ["dark", "any"],
+      "props": ["children", "className", "borderWidth", "duration"]
+    },
+    {
+      "name": "AnimatedHeading",
+      "file": "animated-heading.tsx",
+      "category": "text-effect",
+      "description": "Heading component with fade-up, split, or blur entrance animations",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "as", "animation"]
+    },
+    {
+      "name": "AnimatedList",
+      "file": "animated-list.tsx",
+      "category": "ui-primitive",
+      "description": "List that staggers item entrance animations",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "className", "staggerDelay"]
+    },
+    {
+      "name": "AnimatedLogo",
+      "file": "animated-logo.tsx",
+      "category": "special-effect",
+      "description": "Text logo with animated entrance effect",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["text", "className"]
+    },
+    {
+      "name": "AnimatedTabs",
+      "file": "animated-tabs.tsx",
+      "category": "ui-primitive",
+      "description": "Tab component with smooth animated indicator and content transitions",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["tabs", "className"]
+    },
+    {
+      "name": "AnimatedTestimonials",
+      "file": "animated-testimonials.tsx",
+      "category": "testimonial",
+      "description": "Testimonial carousel with image stack and animated transitions between slides",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["testimonials", "autoplay"]
+    },
+    {
+      "name": "AnnouncementBar",
+      "file": "announcement-bar.tsx",
+      "category": "business",
+      "description": "Sticky top bar for promotions, announcements, or alerts",
+      "businessTypes": ["restaurant", "salon", "retail", "any"],
+      "themes": ["any"],
+      "props": ["text", "className"]
+    },
+    {
+      "name": "ArrowButton",
+      "file": "arrow-button.tsx",
+      "category": "button",
+      "description": "Button with an animated arrow icon that slides on hover",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "href", "onClick"]
+    },
+    {
+      "name": "AsymmetricGrid",
+      "file": "asymmetric-grid.tsx",
+      "category": "layout",
+      "description": "Grid layout with asymmetric column sizing for visual variety",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "AuroraBackground",
+      "file": "aurora-background.tsx",
+      "category": "background",
+      "description": "Animated aurora borealis gradient background effect",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "AwardsSection",
+      "file": "awards-section.tsx",
+      "category": "business",
+      "description": "Display section for awards, certifications, and accolades",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["awards", "className"]
+    },
+    {
+      "name": "BackToTop",
+      "file": "back-to-top.tsx",
+      "category": "ui-primitive",
+      "description": "Floating button that scrolls the page back to top when clicked",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className"]
+    },
+    {
+      "name": "BackgroundGradientAnimation",
+      "file": "background-gradient-animation.tsx",
+      "category": "background",
+      "description": "Interactive animated gradient background with multiple color blobs following the cursor",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["gradientBackgroundStart", "gradientBackgroundEnd", "firstColor", "secondColor", "size", "children"]
+    },
+    {
+      "name": "BadgeGroup",
+      "file": "badge-group.tsx",
+      "category": "badge-list",
+      "description": "Group of small pill badges with default, outline, or accent variants",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "className", "variant"]
+    },
+    {
+      "name": "BadgeList",
+      "file": "badge-list.tsx",
+      "category": "badge-list",
+      "description": "List of label-value badge pairs displayed as pills",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "className"]
+    },
+    {
+      "name": "Badge",
+      "file": "badge.tsx",
+      "category": "ui-primitive",
+      "description": "Small status badge with multiple variants (default, secondary, destructive, outline, ghost, link)",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["variant", "className", "children"]
+    },
+    {
+      "name": "Banner",
+      "file": "banner.tsx",
+      "category": "business",
+      "description": "Full-width banner section for important messages or promotions",
+      "businessTypes": ["restaurant", "salon", "retail", "any"],
+      "themes": ["any"],
+      "props": ["className", "children"]
+    },
+    {
+      "name": "BeforeAfter",
+      "file": "before-after.tsx",
+      "category": "gallery",
+      "description": "Interactive before/after image comparison slider",
+      "businessTypes": ["salon", "contractor", "plumber", "any"],
+      "themes": ["any"],
+      "props": ["beforeSrc", "afterSrc", "className"]
+    },
+    {
+      "name": "BentoGrid",
+      "file": "bento-grid.tsx",
+      "category": "layout",
+      "description": "Bento-style grid layout with named cards featuring icons, descriptions, and CTAs",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "BlurFade",
+      "file": "blur-fade.tsx",
+      "category": "scroll-reveal",
+      "description": "Wrapper that fades and blurs content into view on scroll",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "variant", "duration", "delay"]
+    },
+    {
+      "name": "BookingPrompt",
+      "file": "booking-prompt.tsx",
+      "category": "business",
+      "description": "Call-to-action section prompting visitors to book or call with phone link",
+      "businessTypes": ["restaurant", "salon", "plumber", "contractor", "any"],
+      "themes": ["any"],
+      "props": ["heading", "description", "phone", "ctaText", "ctaHref"]
+    },
+    {
+      "name": "BorderedSection",
+      "file": "bordered-section.tsx",
+      "category": "layout",
+      "description": "Content section wrapped with a decorative border",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "Breadcrumb",
+      "file": "breadcrumb.tsx",
+      "category": "ui-primitive",
+      "description": "Navigation breadcrumb trail showing the current page hierarchy",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "className"]
+    },
+    {
+      "name": "Button",
+      "file": "button.tsx",
+      "category": "button",
+      "description": "Core button component with default, outline, secondary, ghost, destructive, and link variants",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["variant", "size", "className", "children"]
+    },
+    {
+      "name": "CardStack",
+      "file": "card-stack.tsx",
+      "category": "card",
+      "description": "Stack of overlapping cards with depth effect",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "Card",
+      "file": "card.tsx",
+      "category": "card",
+      "description": "Basic card container with border, background, and padding",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "Carousel",
+      "file": "carousel.tsx",
+      "category": "ui-primitive",
+      "description": "Auto-playing carousel with animated slide transitions and navigation controls",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["items", "className", "autoPlay", "interval"]
+    },
+    {
+      "name": "CategoryFilter",
+      "file": "category-filter.tsx",
+      "category": "ui-primitive",
+      "description": "Horizontal filter bar with selectable category pill buttons",
+      "businessTypes": ["restaurant", "salon", "retail", "any"],
+      "themes": ["any"],
+      "props": ["categories", "className"]
+    },
+    {
+      "name": "ChecklistCard",
+      "file": "checklist-card.tsx",
+      "category": "card",
+      "description": "Card displaying a checklist of items with check icons",
+      "businessTypes": ["plumber", "contractor", "any"],
+      "themes": ["any"],
+      "props": ["title", "items", "className"]
+    },
+    {
+      "name": "CircleStat",
+      "file": "circle-stat.tsx",
+      "category": "counter",
+      "description": "Circular progress ring displaying a percentage or stat value",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["value", "label", "className"]
+    },
+    {
+      "name": "ComparisonSlider",
+      "file": "comparison-slider.tsx",
+      "category": "gallery",
+      "description": "Draggable slider to compare two overlapping images side by side",
+      "businessTypes": ["salon", "contractor", "plumber", "any"],
+      "themes": ["any"],
+      "props": ["beforeSrc", "afterSrc", "className"]
+    },
+    {
+      "name": "ContactForm",
+      "file": "contact-form.tsx",
+      "category": "business",
+      "description": "Contact form with configurable name, email, phone, and message fields",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className", "heading", "submitText", "fields"]
+    },
+    {
+      "name": "ContactSection",
+      "file": "contact-section.tsx",
+      "category": "business",
+      "description": "Contact info section displaying phone, email, and address in a grid",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["phone", "email", "address", "className"]
+    },
+    {
+      "name": "Container",
+      "file": "container.tsx",
+      "category": "layout",
+      "description": "Responsive max-width container with sm, md, lg, xl, and full size options",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "size"]
+    },
+    {
+      "name": "ContentCard",
+      "file": "content-card.tsx",
+      "category": "card",
+      "description": "Card with structured content area for title, description, and optional image",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["title", "description", "className"]
+    },
+    {
+      "name": "CountUp",
+      "file": "count-up.tsx",
+      "category": "counter",
+      "description": "Animated counter that counts from start to end value with decimal support",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["end", "start", "duration", "decimals", "prefix", "suffix"]
+    },
+    {
+      "name": "CTABanner",
+      "file": "cta-banner.tsx",
+      "category": "business",
+      "description": "Call-to-action banner with heading, subheading, and button in filled, outlined, or gradient styles",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["heading", "subheading", "ctaText", "ctaHref", "variant"]
+    },
+    {
+      "name": "DiagonalSection",
+      "file": "diagonal-section.tsx",
+      "category": "layout",
+      "description": "Section with diagonal clip-path edges for visual separation",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "DotPattern",
+      "file": "dot-pattern.tsx",
+      "category": "background",
+      "description": "Repeating dot pattern background overlay with configurable size and color",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className", "dotSize", "gap", "dotColor", "fade"]
+    },
+    {
+      "name": "Drawer",
+      "file": "drawer.tsx",
+      "category": "ui-primitive",
+      "description": "Slide-in drawer panel from right, left, or bottom with overlay",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["isOpen", "onClose", "children", "title", "position"]
+    },
+    {
+      "name": "EmbossedCard",
+      "file": "embossed-card.tsx",
+      "category": "card",
+      "description": "Card with embossed shadow effect for a subtle 3D appearance",
+      "businessTypes": ["any"],
+      "themes": ["dark", "any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "ExpandableCard",
+      "file": "expandable-card.tsx",
+      "category": "card",
+      "description": "Card that expands to reveal additional content on click",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "ExperienceBadge",
+      "file": "experience-badge.tsx",
+      "category": "badge-list",
+      "description": "Circular badge displaying years of experience with label",
+      "businessTypes": ["plumber", "contractor", "salon", "any"],
+      "themes": ["any"],
+      "props": ["years", "label", "className"]
+    },
+    {
+      "name": "FAQSection",
+      "file": "faq-section.tsx",
+      "category": "business",
+      "description": "Frequently asked questions section with accordion-style expandable answers",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "title", "subtitle", "className"]
+    },
+    {
+      "name": "FeatureComparison",
+      "file": "feature-comparison.tsx",
+      "category": "business",
+      "description": "Side-by-side feature comparison table or grid",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["features", "className"]
+    },
+    {
+      "name": "FeatureGrid",
+      "file": "feature-grid.tsx",
+      "category": "business",
+      "description": "Grid of feature cards with icon, title, and description in 2-4 column layouts",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["features", "columns", "className"]
+    },
+    {
+      "name": "FeatureList",
+      "file": "feature-list.tsx",
+      "category": "business",
+      "description": "Vertical list of features with icon, title, and description with stagger animation",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "className"]
+    },
+    {
+      "name": "FeatureShowcase",
+      "file": "feature-showcase.tsx",
+      "category": "business",
+      "description": "Large feature showcase section with image and feature highlights",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["features", "className"]
+    },
+    {
+      "name": "FlipWords",
+      "file": "flip-words.tsx",
+      "category": "text-effect",
+      "description": "Animated word flipper that cycles through an array of words with a flip transition",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["words", "duration", "className"]
+    },
+    {
+      "name": "FloatingCTA",
+      "file": "floating-cta.tsx",
+      "category": "button",
+      "description": "Floating call-to-action button that appears after scrolling with phone link support",
+      "businessTypes": ["plumber", "contractor", "restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["text", "href", "phone", "icon", "showAfterScroll"]
+    },
+    {
+      "name": "FloatingNav",
+      "file": "floating-nav.tsx",
+      "category": "nav",
+      "description": "Floating navigation bar that hides on scroll down and shows on scroll up",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "className", "logo"]
+    },
+    {
+      "name": "FooterColumns",
+      "file": "footer-columns.tsx",
+      "category": "footer",
+      "description": "Multi-column footer with business name, description, and organized link columns",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["businessName", "columns", "description", "className"]
+    },
+    {
+      "name": "FooterGradient",
+      "file": "footer-gradient.tsx",
+      "category": "footer",
+      "description": "Footer with gradient background displaying business info, phone, email, and address",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["businessName", "tagline", "phone", "email", "address"]
+    },
+    {
+      "name": "FooterMinimal",
+      "file": "footer-minimal.tsx",
+      "category": "footer",
+      "description": "Simple one-line footer with copyright text and optional navigation links",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["businessName", "links", "className"]
+    },
+    {
+      "name": "FullBleedSection",
+      "file": "full-bleed-section.tsx",
+      "category": "layout",
+      "description": "Full-width section that breaks out of the container for edge-to-edge content",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "FullWidthImage",
+      "file": "full-width-image.tsx",
+      "category": "gallery",
+      "description": "Full-width image section with optional overlay text",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["src", "alt", "className"]
+    },
+    {
+      "name": "GalleryStrip",
+      "file": "gallery-strip.tsx",
+      "category": "gallery",
+      "description": "Horizontal image strip with scroll-linked parallax movement",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["images", "className", "direction"]
+    },
+    {
+      "name": "GlassCard",
+      "file": "glass-card.tsx",
+      "category": "card",
+      "description": "Card with glassmorphism effect using backdrop blur and transparency",
+      "businessTypes": ["any"],
+      "themes": ["dark", "any"],
+      "props": ["children", "className", "blur"]
+    },
+    {
+      "name": "Globe",
+      "file": "globe.tsx",
+      "category": "special-effect",
+      "description": "3D interactive globe visualization rendered with COBE library",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["className"]
+    },
+    {
+      "name": "GoogleReviewBadge",
+      "file": "google-review-badge.tsx",
+      "category": "badge-list",
+      "description": "Google-style review badge displaying rating stars and total review count",
+      "businessTypes": ["restaurant", "salon", "plumber", "contractor", "any"],
+      "themes": ["any"],
+      "props": ["rating", "totalReviews", "className"]
+    },
+    {
+      "name": "GradientBlurBackground",
+      "file": "gradient-blur-background.tsx",
+      "category": "background",
+      "description": "Background wrapper with blurred gradient color blobs",
+      "businessTypes": ["any"],
+      "themes": ["dark", "any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "GradientBorderCard",
+      "file": "gradient-border-card.tsx",
+      "category": "card",
+      "description": "Card with a static gradient border using the theme accent color",
+      "businessTypes": ["any"],
+      "themes": ["dark", "any"],
+      "props": ["children", "className", "borderWidth"]
+    },
+    {
+      "name": "GradientButton",
+      "file": "gradient-button.tsx",
+      "category": "button",
+      "description": "Button with gradient background or gradient outline style",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "href", "onClick", "variant"]
+    },
+    {
+      "name": "GradientCard",
+      "file": "gradient-card.tsx",
+      "category": "card",
+      "description": "Card with a subtle gradient background overlay",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "gradient"]
+    },
+    {
+      "name": "GradientSection",
+      "file": "gradient-section.tsx",
+      "category": "layout",
+      "description": "Section wrapper with a gradient background using theme colors",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "GradientText",
+      "file": "gradient-text.tsx",
+      "category": "text-effect",
+      "description": "Text with gradient color fill using customizable from/via/to colors and optional animation",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "from", "via", "to", "animate"]
+    },
+    {
+      "name": "GridPattern",
+      "file": "grid-pattern.tsx",
+      "category": "background",
+      "description": "Repeating grid line pattern background overlay with configurable size",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className", "size", "strokeColor", "fade"]
+    },
+    {
+      "name": "GridShowcase",
+      "file": "grid-showcase.tsx",
+      "category": "layout",
+      "description": "Showcase grid layout for displaying items with varied sizing",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "HeroCentered",
+      "file": "hero-centered.tsx",
+      "category": "hero",
+      "description": "Centered hero section with optional label badge, heading, subheading, and dual CTAs",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["heading", "subheading", "label", "ctaText", "ctaHref", "secondaryCtaText"]
+    },
+    {
+      "name": "HeroFullscreen",
+      "file": "hero-fullscreen.tsx",
+      "category": "hero",
+      "description": "Full-screen hero with oversized heading and centered layout",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["dark", "any"],
+      "props": ["heading", "subheading", "ctaText", "ctaHref"]
+    },
+    {
+      "name": "HeroGradient",
+      "file": "hero-gradient.tsx",
+      "category": "hero",
+      "description": "Hero with animated gradient background blobs and gradient text heading",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["heading", "subheading", "ctaText", "ctaHref"]
+    },
+    {
+      "name": "HeroImageBg",
+      "file": "hero-image-bg.tsx",
+      "category": "hero",
+      "description": "Hero with a full-bleed background image and configurable overlay opacity",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["dark"],
+      "props": ["heading", "subheading", "ctaText", "imageSrc", "overlayOpacity"]
+    },
+    {
+      "name": "HeroMinimal",
+      "file": "hero-minimal.tsx",
+      "category": "hero",
+      "description": "Minimal hero with just a large heading and optional subheading, no CTA",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["heading", "subheading", "className"]
+    },
+    {
+      "name": "HeroSimple",
+      "file": "hero-simple.tsx",
+      "category": "hero",
+      "description": "Clean hero section with heading, subheading, dual CTAs, and center or left alignment",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["heading", "subheading", "ctaText", "ctaHref", "align"]
+    },
+    {
+      "name": "HeroSplit",
+      "file": "hero-split.tsx",
+      "category": "hero",
+      "description": "Two-column hero with text on one side and image on the other, reversible layout",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["heading", "subheading", "ctaText", "imageSrc", "imageAlt", "reversed"]
+    },
+    {
+      "name": "HeroVideo",
+      "file": "hero-video.tsx",
+      "category": "hero",
+      "description": "Hero with looping background video, poster image fallback, and optional overlay",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["dark"],
+      "props": ["heading", "subheading", "ctaText", "videoSrc", "posterSrc", "overlay"]
+    },
+    {
+      "name": "HeroWithFeatures",
+      "file": "hero-with-features.tsx",
+      "category": "hero",
+      "description": "Centered hero with a row of feature checkmarks below the CTA",
+      "businessTypes": ["plumber", "contractor", "any"],
+      "themes": ["any"],
+      "props": ["heading", "subheading", "ctaText", "features"]
+    },
+    {
+      "name": "HighlightCard",
+      "file": "highlight-card.tsx",
+      "category": "card",
+      "description": "Card with an accent-colored highlight strip or border emphasis",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "HoursTable",
+      "file": "hours-table.tsx",
+      "category": "business",
+      "description": "Business hours table with day-by-day schedule and today's row highlighted",
+      "businessTypes": ["restaurant", "salon", "retail", "any"],
+      "themes": ["any"],
+      "props": ["hours", "className"]
+    },
+    {
+      "name": "HoverBorderCard",
+      "file": "hover-border-card.tsx",
+      "category": "card",
+      "description": "Card whose border color changes to the accent color on hover",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "HoverCardGroup",
+      "file": "hover-card-group.tsx",
+      "category": "card",
+      "description": "Group of cards where hovering one dims the others for focus effect",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "HoverGlowCard",
+      "file": "hover-glow-card.tsx",
+      "category": "card",
+      "description": "Card with a glowing accent shadow that appears on hover",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "HoverImageCard",
+      "file": "hover-image-card.tsx",
+      "category": "card",
+      "description": "Image card with overlay content that reveals on hover",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["imageSrc", "title", "className"]
+    },
+    {
+      "name": "HoverLiftCard",
+      "file": "hover-lift-card.tsx",
+      "category": "card",
+      "description": "Card that lifts up with a shadow effect on hover",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "HoverRevealCard",
+      "file": "hover-reveal-card.tsx",
+      "category": "card",
+      "description": "Card that reveals hidden content or detail on hover interaction",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "HoverScale",
+      "file": "hover-scale.tsx",
+      "category": "special-effect",
+      "description": "Wrapper that scales its children up slightly on hover",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "IconButton",
+      "file": "icon-button.tsx",
+      "category": "button",
+      "description": "Accessible button with icon and label in default, outline, or ghost variants",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["icon", "label", "className", "href", "variant"]
+    },
+    {
+      "name": "IconCard",
+      "file": "icon-card.tsx",
+      "category": "card",
+      "description": "Card featuring a prominent icon with title and description",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["icon", "title", "description", "className"]
+    },
+    {
+      "name": "IconGrid",
+      "file": "icon-grid.tsx",
+      "category": "layout",
+      "description": "Grid of icon-label pairs for displaying features or categories",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "className"]
+    },
+    {
+      "name": "IconList",
+      "file": "icon-list.tsx",
+      "category": "layout",
+      "description": "Vertical list of items with icons for feature or benefit lists",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "className"]
+    },
+    {
+      "name": "ImageCompare",
+      "file": "image-compare.tsx",
+      "category": "gallery",
+      "description": "Side-by-side labeled image comparison grid",
+      "businessTypes": ["salon", "contractor", "any"],
+      "themes": ["any"],
+      "props": ["images", "className"]
+    },
+    {
+      "name": "ImageGallery",
+      "file": "image-gallery.tsx",
+      "category": "gallery",
+      "description": "Responsive image grid gallery with lightbox modal on click",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["images", "columns", "className"]
+    },
+    {
+      "name": "ImageOverlayCard",
+      "file": "image-overlay-card.tsx",
+      "category": "card",
+      "description": "Image card with text overlay positioned over the image",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["dark"],
+      "props": ["imageSrc", "title", "className"]
+    },
+    {
+      "name": "ImageWithText",
+      "file": "image-with-text.tsx",
+      "category": "layout",
+      "description": "Two-column layout pairing an image with text content side by side",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["imageSrc", "title", "description", "className"]
+    },
+    {
+      "name": "InView",
+      "file": "in-view.tsx",
+      "category": "scroll-reveal",
+      "description": "Wrapper that animates children into view with configurable fade-up, slide, or zoom variants",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "variant", "className"]
+    },
+    {
+      "name": "InfiniteMovingCards",
+      "file": "infinite-moving-cards.tsx",
+      "category": "testimonial",
+      "description": "Infinitely scrolling card strip for testimonials with configurable speed and direction",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["items", "direction", "speed", "pauseOnHover"]
+    },
+    {
+      "name": "InfoBar",
+      "file": "info-bar.tsx",
+      "category": "business",
+      "description": "Horizontal info bar displaying key business details like phone, hours, or address",
+      "businessTypes": ["restaurant", "salon", "plumber", "any"],
+      "themes": ["any"],
+      "props": ["items", "className"]
+    },
+    {
+      "name": "LabeledDivider",
+      "file": "labeled-divider.tsx",
+      "category": "divider",
+      "description": "Horizontal line divider with a centered text label",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["label", "className"]
+    },
+    {
+      "name": "LampContainer",
+      "file": "lamp.tsx",
+      "category": "special-effect",
+      "description": "Dramatic lamp light effect container with glowing beam animation",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "LetterPullup",
+      "file": "letter-pullup.tsx",
+      "category": "text-effect",
+      "description": "Text animation where each letter pulls up from below with staggered delay",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["words", "className", "delay"]
+    },
+    {
+      "name": "LoadingSkeleton",
+      "file": "loading-skeleton.tsx",
+      "category": "ui-primitive",
+      "description": "Pulsing placeholder skeleton for loading states",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className"]
+    },
+    {
+      "name": "LocationCard",
+      "file": "location-card.tsx",
+      "category": "business",
+      "description": "Business location card displaying name, address, phone, email, and hours",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["name", "address", "phone", "email", "hours"]
+    },
+    {
+      "name": "LogoCloud",
+      "file": "logo-cloud.tsx",
+      "category": "business",
+      "description": "Row of partner/client logos with optional grayscale filter",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["logos", "className", "grayscale"]
+    },
+    {
+      "name": "MagneticButton",
+      "file": "magnetic-button.tsx",
+      "category": "button",
+      "description": "Button that magnetically attracts toward the cursor on hover",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "strength"]
+    },
+    {
+      "name": "MapEmbed",
+      "file": "map-embed.tsx",
+      "category": "business",
+      "description": "Google Maps embed iframe with customizable query and height",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["query", "className", "height"]
+    },
+    {
+      "name": "MarqueeText",
+      "file": "marquee-text.tsx",
+      "category": "special-effect",
+      "description": "Continuously scrolling large background text marquee with configurable speed",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["text", "className", "speed", "separator"]
+    },
+    {
+      "name": "Marquee",
+      "file": "marquee.tsx",
+      "category": "special-effect",
+      "description": "Generic marquee container that scrolls child content horizontally in a loop",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "reverse", "pauseOnHover", "vertical"]
+    },
+    {
+      "name": "MasonryGallery",
+      "file": "masonry-gallery.tsx",
+      "category": "gallery",
+      "description": "Pinterest-style masonry layout gallery with animated entrance",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["images", "columns", "className"]
+    },
+    {
+      "name": "MasonryLayout",
+      "file": "masonry-layout.tsx",
+      "category": "layout",
+      "description": "Generic masonry grid layout for arbitrary child content",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "columns", "className"]
+    },
+    {
+      "name": "MenuCard",
+      "file": "menu-card.tsx",
+      "category": "business",
+      "description": "Restaurant-style menu with categorized items showing name, description, and price",
+      "businessTypes": ["restaurant"],
+      "themes": ["any"],
+      "props": ["categories", "className"]
+    },
+    {
+      "name": "MiniMap",
+      "file": "mini-map.tsx",
+      "category": "business",
+      "description": "Small inline map preview for displaying business location",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["query", "className"]
+    },
+    {
+      "name": "MinimalNav",
+      "file": "minimal-nav.tsx",
+      "category": "nav",
+      "description": "Fixed top navigation with logo, links, CTA button, and mobile hamburger menu",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["logo", "items", "ctaText", "ctaHref"]
+    },
+    {
+      "name": "MobileMenu",
+      "file": "mobile-menu.tsx",
+      "category": "nav",
+      "description": "Full-screen mobile menu overlay with animated link entries",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "isOpen", "onClose"]
+    },
+    {
+      "name": "Modal",
+      "file": "modal.tsx",
+      "category": "ui-primitive",
+      "description": "Overlay modal dialog with animated entrance, title, and close button",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["isOpen", "onClose", "children", "title"]
+    },
+    {
+      "name": "MovingBorder",
+      "file": "moving-border.tsx",
+      "category": "special-effect",
+      "description": "Button or container with a continuously moving gradient border animation",
+      "businessTypes": ["any"],
+      "themes": ["dark", "any"],
+      "props": ["children", "borderRadius", "duration", "className"]
+    },
+    {
+      "name": "MultiColumnText",
+      "file": "multi-column-text.tsx",
+      "category": "layout",
+      "description": "Text content displayed in multiple columns for magazine-style layouts",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "columns", "className"]
+    },
+    {
+      "name": "NewsletterSignup",
+      "file": "newsletter-signup.tsx",
+      "category": "business",
+      "description": "Email subscription form with heading, description, and submit button",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["heading", "description", "buttonText", "className"]
+    },
+    {
+      "name": "NoiseOverlay",
+      "file": "noise-overlay.tsx",
+      "category": "background",
+      "description": "Subtle noise texture overlay for adding grain to backgrounds",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className", "opacity"]
+    },
+    {
+      "name": "NotificationBadge",
+      "file": "notification-badge.tsx",
+      "category": "badge-list",
+      "description": "Small notification dot or count badge for overlay positioning",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["count", "className"]
+    },
+    {
+      "name": "NumberGrid",
+      "file": "number-grid.tsx",
+      "category": "counter",
+      "description": "Grid of number statistics with labels displayed in card format",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "className"]
+    },
+    {
+      "name": "NumberTicker",
+      "file": "number-ticker.tsx",
+      "category": "counter",
+      "description": "Spring-animated number ticker that counts up or down with decimal support",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["value", "startValue", "direction", "delay", "decimalPlaces"]
+    },
+    {
+      "name": "NumberedList",
+      "file": "numbered-list.tsx",
+      "category": "layout",
+      "description": "Numbered list with large step numbers and descriptions",
+      "businessTypes": ["plumber", "contractor", "any"],
+      "themes": ["any"],
+      "props": ["items", "className"]
+    },
+    {
+      "name": "OverlaySection",
+      "file": "overlay-section.tsx",
+      "category": "layout",
+      "description": "Section with a dark overlay on top of background content",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "PageTransition",
+      "file": "page-transition.tsx",
+      "category": "special-effect",
+      "description": "Wrapper that animates page content entrance with fade and slide",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "ParallaxImage",
+      "file": "parallax-image.tsx",
+      "category": "special-effect",
+      "description": "Image that moves at a different scroll speed for parallax depth effect",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["src", "alt", "className", "speed"]
+    },
+    {
+      "name": "ParallaxSection",
+      "file": "parallax-section.tsx",
+      "category": "layout",
+      "description": "Section with parallax scrolling background image and optional overlay",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["children", "className", "speed", "backgroundImage", "overlay"]
+    },
+    {
+      "name": "ParallaxText",
+      "file": "parallax-text.tsx",
+      "category": "special-effect",
+      "description": "Text that moves horizontally with parallax effect on scroll",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["text", "className", "speed"]
+    },
+    {
+      "name": "Particles",
+      "file": "particles.tsx",
+      "category": "background",
+      "description": "Interactive particle animation background that responds to mouse movement",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["className", "particleSize", "speed", "particleColor", "particleDensity"]
+    },
+    {
+      "name": "PhoneCTA",
+      "file": "phone-cta.tsx",
+      "category": "button",
+      "description": "Phone call-to-action in button, link, or banner variant with tel: link",
+      "businessTypes": ["plumber", "contractor", "restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["phone", "text", "className", "variant"]
+    },
+    {
+      "name": "PhotoStrip",
+      "file": "photo-strip.tsx",
+      "category": "gallery",
+      "description": "Horizontal strip of portrait-orientation photos with hover zoom",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["images", "className"]
+    },
+    {
+      "name": "PricingCard",
+      "file": "pricing-card.tsx",
+      "category": "business",
+      "description": "Single pricing tier card with title, price, features list, and CTA button",
+      "businessTypes": ["salon", "contractor", "any"],
+      "themes": ["any"],
+      "props": ["title", "price", "features", "ctaText", "highlighted"]
+    },
+    {
+      "name": "PricingTable",
+      "file": "pricing-table.tsx",
+      "category": "business",
+      "description": "Multi-tier pricing comparison table with highlighted recommended tier",
+      "businessTypes": ["salon", "contractor", "any"],
+      "themes": ["any"],
+      "props": ["tiers", "className"]
+    },
+    {
+      "name": "ProgressBar",
+      "file": "progress-bar.tsx",
+      "category": "ui-primitive",
+      "description": "Animated horizontal progress bar with percentage fill",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["value", "label", "className"]
+    },
+    {
+      "name": "PulseButton",
+      "file": "pulse-button.tsx",
+      "category": "button",
+      "description": "Button with a pulsing ring animation to draw attention",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "pulseColor"]
+    },
+    {
+      "name": "QuoteBlock",
+      "file": "quote-block.tsx",
+      "category": "layout",
+      "description": "Styled blockquote with accent border and citation attribution",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["quote", "author", "className"]
+    },
+    {
+      "name": "RatingSummary",
+      "file": "rating-summary.tsx",
+      "category": "testimonial",
+      "description": "Overall rating summary with average score, star display, and review count",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["rating", "totalReviews", "className"]
+    },
+    {
+      "name": "ResponsiveImage",
+      "file": "responsive-image.tsx",
+      "category": "gallery",
+      "description": "Responsive image component with aspect ratio control and lazy loading",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["src", "alt", "className", "aspectRatio"]
+    },
+    {
+      "name": "RevealOnScroll",
+      "file": "reveal-on-scroll.tsx",
+      "category": "scroll-reveal",
+      "description": "Wrapper that reveals children with a clip animation when scrolled into view",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "width"]
+    },
+    {
+      "name": "ReviewStars",
+      "file": "review-stars.tsx",
+      "category": "testimonial",
+      "description": "Star rating display with configurable size and optional numeric value",
+      "businessTypes": ["restaurant", "salon", "plumber", "any"],
+      "themes": ["any"],
+      "props": ["rating", "maxStars", "size", "showValue"]
+    },
+    {
+      "name": "RibbonBadge",
+      "file": "ribbon-badge.tsx",
+      "category": "badge-list",
+      "description": "Corner ribbon badge overlay positioned at top-left or top-right of parent",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["text", "className", "position"]
+    },
+    {
+      "name": "RotatingBadge",
+      "file": "rotating-badge.tsx",
+      "category": "badge-list",
+      "description": "Circular badge with text arranged in a rotating circle animation",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["text", "className", "size"]
+    },
+    {
+      "name": "ScrollCarousel",
+      "file": "scroll-carousel.tsx",
+      "category": "special-effect",
+      "description": "Horizontal scroll-linked carousel that moves items as the page scrolls",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "ScrollIndicator",
+      "file": "scroll-indicator.tsx",
+      "category": "ui-primitive",
+      "description": "Animated scroll-down indicator arrow or chevron for hero sections",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className"]
+    },
+    {
+      "name": "ScrollProgress",
+      "file": "scroll-progress.tsx",
+      "category": "ui-primitive",
+      "description": "Fixed top progress bar that fills as the user scrolls down the page",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className"]
+    },
+    {
+      "name": "ScrollRevealText",
+      "file": "scroll-reveal-text.tsx",
+      "category": "scroll-reveal",
+      "description": "Text where each word progressively reveals opacity as you scroll through it",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["text", "className"]
+    },
+    {
+      "name": "ScrollSnapSection",
+      "file": "scroll-snap-section.tsx",
+      "category": "layout",
+      "description": "Full-height section with CSS scroll snap for page-by-page scrolling",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "ScrollToSection",
+      "file": "scroll-to-section.tsx",
+      "category": "ui-primitive",
+      "description": "Anchor link component that smoothly scrolls to a target section",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["targetId", "children", "className"]
+    },
+    {
+      "name": "SectionHeading",
+      "file": "section-heading.tsx",
+      "category": "layout",
+      "description": "Reusable section heading with title, subtitle, optional label, and center/left alignment",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["title", "subtitle", "label", "align"]
+    },
+    {
+      "name": "Separator",
+      "file": "separator.tsx",
+      "category": "divider",
+      "description": "Simple horizontal or vertical separator line",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className", "orientation"]
+    },
+    {
+      "name": "ServiceCard",
+      "file": "service-card.tsx",
+      "category": "business",
+      "description": "Service card with icon, title, description, and optional price with hover lift",
+      "businessTypes": ["plumber", "contractor", "salon", "any"],
+      "themes": ["any"],
+      "props": ["title", "description", "icon", "price"]
+    },
+    {
+      "name": "ServiceGrid",
+      "file": "service-grid.tsx",
+      "category": "business",
+      "description": "Grid of services in card, minimal, or bordered variants with 2-4 columns",
+      "businessTypes": ["plumber", "contractor", "salon", "any"],
+      "themes": ["any"],
+      "props": ["services", "columns", "className", "variant"]
+    },
+    {
+      "name": "ServiceList",
+      "file": "service-list.tsx",
+      "category": "business",
+      "description": "Vertical list of services with title, description, and optional price per item",
+      "businessTypes": ["plumber", "contractor", "salon", "restaurant", "any"],
+      "themes": ["any"],
+      "props": ["services", "className"]
+    },
+    {
+      "name": "ShimmerButton",
+      "file": "shimmer-button.tsx",
+      "category": "button",
+      "description": "Button with an animated shimmer light sweep effect across the surface",
+      "businessTypes": ["any"],
+      "themes": ["dark", "any"],
+      "props": ["children", "shimmerColor", "shimmerSize", "borderRadius", "background"]
+    },
+    {
+      "name": "SocialLinks",
+      "file": "social-links.tsx",
+      "category": "business",
+      "description": "Row of social media platform icon links with configurable size",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["links", "className", "size"]
+    },
+    {
+      "name": "Spacer",
+      "file": "spacer.tsx",
+      "category": "layout",
+      "description": "Vertical spacing utility component with configurable height",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["size", "className"]
+    },
+    {
+      "name": "Sparkles",
+      "file": "sparkles.tsx",
+      "category": "background",
+      "description": "Particle sparkle effect background using tsparticles with mouse interactivity",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["className", "particleSize", "speed", "particleColor", "particleDensity"]
+    },
+    {
+      "name": "SplitHeroImage",
+      "file": "split-hero-image.tsx",
+      "category": "hero",
+      "description": "Hero variant with diagonal split between image and content areas",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["heading", "subheading", "imageSrc", "ctaText"]
+    },
+    {
+      "name": "SplitSection",
+      "file": "split-section.tsx",
+      "category": "layout",
+      "description": "Two-column section with left and right content areas, reversible order",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["left", "right", "className", "reversed", "gap"]
+    },
+    {
+      "name": "SpotlightCard",
+      "file": "spotlight-card.tsx",
+      "category": "card",
+      "description": "Card with a radial spotlight glow that follows the mouse cursor",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "Spotlight",
+      "file": "spotlight.tsx",
+      "category": "special-effect",
+      "description": "SVG spotlight beam effect overlay that animates into view",
+      "businessTypes": ["any"],
+      "themes": ["dark"],
+      "props": ["className", "fill"]
+    },
+    {
+      "name": "SpringReveal",
+      "file": "spring-reveal.tsx",
+      "category": "scroll-reveal",
+      "description": "Spring-physics reveal animation from up, down, left, or right direction",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "direction", "delay", "once"]
+    },
+    {
+      "name": "StackedCards",
+      "file": "stacked-cards.tsx",
+      "category": "card",
+      "description": "Stack of overlapping cards that fan out or separate on interaction",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "StaggerText",
+      "file": "stagger-text.tsx",
+      "category": "text-effect",
+      "description": "Text animation where each character enters with staggered timing",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["text", "className", "staggerDelay", "duration", "once"]
+    },
+    {
+      "name": "StatCard",
+      "file": "stat-card.tsx",
+      "category": "card",
+      "description": "Card displaying a single statistic with value, label, optional icon and trend",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["value", "label", "icon", "trend"]
+    },
+    {
+      "name": "StatsSection",
+      "file": "stats-section.tsx",
+      "category": "business",
+      "description": "Section displaying animated count-up statistics in a row",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["stats", "className"]
+    },
+    {
+      "name": "StepsSection",
+      "file": "steps-section.tsx",
+      "category": "business",
+      "description": "How-it-works process steps displayed horizontally or vertically with numbers",
+      "businessTypes": ["plumber", "contractor", "any"],
+      "themes": ["any"],
+      "props": ["steps", "className", "variant"]
+    },
+    {
+      "name": "StickyCTA",
+      "file": "sticky-cta.tsx",
+      "category": "button",
+      "description": "Sticky bottom CTA bar that appears after scrolling with phone link support",
+      "businessTypes": ["plumber", "contractor", "restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["text", "href", "phone", "showAfterScroll"]
+    },
+    {
+      "name": "StickySection",
+      "file": "sticky-section.tsx",
+      "category": "layout",
+      "description": "Section that sticks to the viewport during scroll for persistent visibility",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "TabContent",
+      "file": "tab-content.tsx",
+      "category": "ui-primitive",
+      "description": "Tab panel content area for tab-based navigation interfaces",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "TeamMemberCard",
+      "file": "team-member-card.tsx",
+      "category": "business",
+      "description": "Card for displaying a team member with photo, name, role, and bio",
+      "businessTypes": ["salon", "restaurant", "any"],
+      "themes": ["any"],
+      "props": ["name", "role", "imageSrc", "bio"]
+    },
+    {
+      "name": "TestimonialCard",
+      "file": "testimonial-card.tsx",
+      "category": "testimonial",
+      "description": "Single testimonial card with quote, author, role, and star rating",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["quote", "author", "role", "rating"]
+    },
+    {
+      "name": "TestimonialGrid",
+      "file": "testimonial-grid.tsx",
+      "category": "testimonial",
+      "description": "Grid of testimonial cards in 2 or 3 columns with staggered animations",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["testimonials", "columns", "className"]
+    },
+    {
+      "name": "TestimonialMarquee",
+      "file": "testimonial-marquee.tsx",
+      "category": "testimonial",
+      "description": "Continuously scrolling marquee strip of testimonial cards",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["testimonials", "className", "speed"]
+    },
+    {
+      "name": "TextBadge",
+      "file": "text-badge.tsx",
+      "category": "badge-list",
+      "description": "Small inline text badge pill with default, outline, or accent variant",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "variant"]
+    },
+    {
+      "name": "TextBlock",
+      "file": "text-block.tsx",
+      "category": "layout",
+      "description": "Styled paragraph text block with consistent typography and spacing",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className"]
+    },
+    {
+      "name": "TextGenerateEffect",
+      "file": "text-generate-effect.tsx",
+      "category": "text-effect",
+      "description": "Text that generates word by word with staggered fade and blur animation",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["words", "className", "filter", "duration"]
+    },
+    {
+      "name": "TextHighlight",
+      "file": "text-highlight.tsx",
+      "category": "text-effect",
+      "description": "Inline text with accent-colored highlight background underline effect",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "color"]
+    },
+    {
+      "name": "TextLoop",
+      "file": "text-loop.tsx",
+      "category": "text-effect",
+      "description": "Animated text that loops through an array of words with crossfade transition",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["words", "className", "interval"]
+    },
+    {
+      "name": "TextReveal",
+      "file": "text-reveal.tsx",
+      "category": "text-effect",
+      "description": "Text that reveals from behind a mask with a slide-up animation",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["text", "className", "delay"]
+    },
+    {
+      "name": "TextRotate",
+      "file": "text-rotate.tsx",
+      "category": "text-effect",
+      "description": "Animated text rotator cycling through words with vertical slide transition",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["words", "duration", "className"]
+    },
+    {
+      "name": "TextShimmer",
+      "file": "text-shimmer.tsx",
+      "category": "text-effect",
+      "description": "Text with animated shimmering gradient sweep effect",
+      "businessTypes": ["any"],
+      "themes": ["dark", "any"],
+      "props": ["children", "className", "duration"]
+    },
+    {
+      "name": "TiltCard",
+      "file": "tilt-card.tsx",
+      "category": "card",
+      "description": "Card that tilts in 3D following the mouse cursor position",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "className", "tiltAmount"]
+    },
+    {
+      "name": "Timeline",
+      "file": "timeline.tsx",
+      "category": "layout",
+      "description": "Vertical timeline with dated entries, connecting line, and animated dots",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["items", "className"]
+    },
+    {
+      "name": "TooltipWrapper",
+      "file": "tooltip-wrapper.tsx",
+      "category": "ui-primitive",
+      "description": "Wrapper that shows a tooltip on hover with configurable position",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "content", "className"]
+    },
+    {
+      "name": "TransparentNav",
+      "file": "transparent-nav.tsx",
+      "category": "nav",
+      "description": "Transparent navigation that gains a background on scroll with CTA button",
+      "businessTypes": ["any"],
+      "themes": ["dark", "any"],
+      "props": ["logo", "items", "ctaText", "ctaHref"]
+    },
+    {
+      "name": "TrustBadges",
+      "file": "trust-badges.tsx",
+      "category": "badge-list",
+      "description": "Row of trust/security badges with shield icons and text labels",
+      "businessTypes": ["plumber", "contractor", "any"],
+      "themes": ["any"],
+      "props": ["badges", "className"]
+    },
+    {
+      "name": "TwoColumnText",
+      "file": "two-column-text.tsx",
+      "category": "layout",
+      "description": "Two-column text layout for balanced content presentation",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["left", "right", "className"]
+    },
+    {
+      "name": "Typewriter",
+      "file": "typewriter.tsx",
+      "category": "text-effect",
+      "description": "Typewriter effect cycling through an array of words with typing and deleting animation",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["words", "className", "typingSpeed", "deletingSpeed", "pauseTime"]
+    },
+    {
+      "name": "TypingAnimation",
+      "file": "typing-animation.tsx",
+      "category": "text-effect",
+      "description": "Single-line typing animation that types out text character by character",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["text", "className", "duration"]
+    },
+    {
+      "name": "VideoSection",
+      "file": "video-section.tsx",
+      "category": "gallery",
+      "description": "Video embed section with autoplay background or inline player",
+      "businessTypes": ["restaurant", "salon", "any"],
+      "themes": ["any"],
+      "props": ["src", "className"]
+    },
+    {
+      "name": "WaveDivider",
+      "file": "wave-divider.tsx",
+      "category": "divider",
+      "description": "SVG wave shape divider between sections with configurable position and color",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["className", "color", "position", "flip"]
+    },
+    {
+      "name": "WobbleCard",
+      "file": "wobble-card.tsx",
+      "category": "card",
+      "description": "Card with a playful wobble rotation effect that follows the mouse",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["children", "containerClassName", "className"]
+    },
+    {
+      "name": "WordFadeIn",
+      "file": "word-fade-in.tsx",
+      "category": "text-effect",
+      "description": "Text animation where each word fades in sequentially with staggered delay",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["words", "className", "delay"]
+    },
+    {
+      "name": "ZigzagSections",
+      "file": "zigzag-sections.tsx",
+      "category": "layout",
+      "description": "Alternating left-right content sections in a zigzag pattern",
+      "businessTypes": ["any"],
+      "themes": ["any"],
+      "props": ["sections", "className"]
+    }
+  ]
+}
