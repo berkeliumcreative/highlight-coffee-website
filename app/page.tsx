@@ -20,7 +20,7 @@ const iconMap: Record<string, any> = { Coffee, Zap, GlassWater, Croissant };
 export default function Page() {
   return (
     <main className="min-h-screen bg-background text-foreground">
-      <HeroImageBg heading={content.hero.heading} subheading={content.hero.subheading} ctaText={content.hero.ctaText} ctaLink={content.hero.ctaLink} backgroundImage={content.hero.backgroundImage} />
+      <HeroImageBg heading={content.hero.heading} subheading={content.hero.subheading} ctaText={content.hero.ctaText} ctaHref={content.hero.ctaLink} imageSrc={content.hero.backgroundImage} />
 
       <StatsSection
         stats={[
