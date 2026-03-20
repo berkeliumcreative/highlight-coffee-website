@@ -1,47 +1,88 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Highlight Coffee",
+  "tagline": "Specialty Coffee on Broadway, Glendale",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "Coffee Worth Highlighting",
+    "subheading": "Specialty-grade beans, precision brewing, and a modern space designed for coffee lovers — right on East Broadway in Glendale.",
+    "ctaText": "Our Menu",
+    "ctaLink": "#drinks"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "About Highlight",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Highlight Coffee is Glendale's destination for specialty coffee. We source single-origin beans from world-class roasters and brew every cup with meticulous care — whether it's a perfectly extracted espresso or a slow-drip pour-over.",
+      "Our bright, modern space on East Broadway is built for coffee lovers who appreciate quality. Come for the coffee, stay for the atmosphere. With a 4.6-star rating and nearly 300 five-star reviews, we've become a staple in the Glendale coffee scene."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Pour-Over & Drip",
+      "description": "Single-origin pour-overs brewed to order, rotating drip selections, and specialty filter methods that bring out every nuance of the bean.",
+      "icon": "Coffee"
+    },
+    {
+      "title": "Espresso Bar",
+      "description": "Expertly pulled espresso shots, silky cortados, flat whites, and classic lattes. Our baristas dial in fresh every morning for peak flavor.",
+      "icon": "Zap"
+    },
+    {
+      "title": "Cold Drinks",
+      "description": "Smooth cold brew on tap, iced lattes, refreshing matcha, and seasonal specials. The perfect pick-me-up on a warm Glendale afternoon.",
+      "icon": "GlassWater"
+    },
+    {
+      "title": "Fresh Pastries",
+      "description": "Locally sourced pastries, cookies, and light bites. Perfectly paired with your drink of choice — baked fresh and delivered daily.",
+      "icon": "Croissant"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Alex P.",
+      "text": "Best specialty coffee in Glendale. The pour-over is incredible — you can taste the difference when beans are this fresh. My daily ritual.",
+      "rating": 5
+    },
+    {
+      "name": "Mia L.",
+      "text": "Love the vibe here. Clean, modern space with excellent coffee. The baristas know what they're doing. Highly recommend the cortado.",
+      "rating": 5
+    },
+    {
+      "name": "James W.",
+      "text": "Finally, a real specialty coffee shop in Glendale! No burnt beans, no nonsense — just perfectly brewed coffee every single time.",
+      "rating": 5
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "address": "701 E Broadway, Glendale, CA 91205",
+    "phone": "(818) 484-8414",
+    "email": "hello@highlightcoffee.com",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
-      "Sunday": "Closed"
+      "Monday": "7:00 AM – 3:00 PM",
+      "Tuesday": "7:00 AM – 3:00 PM",
+      "Wednesday": "7:00 AM – 3:00 PM",
+      "Thursday": "7:00 AM – 3:00 PM",
+      "Friday": "7:00 AM – 3:00 PM",
+      "Saturday": "8:00 AM – 4:00 PM",
+      "Sunday": "8:00 AM – 4:00 PM"
     },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    "mapEmbedQuery": "Highlight Coffee, 701 E Broadway, Glendale, CA 91205"
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "Highlight Coffee | Specialty Coffee in Glendale, CA",
+    "description": "Specialty-grade coffee, precision brewing, and a modern space on East Broadway in Glendale. Pour-overs, espresso, cold brew, and more.",
+    "keywords": [
+      "specialty coffee glendale",
+      "highlight coffee",
+      "coffee shop glendale ca",
+      "pour over glendale",
+      "best coffee near me",
+      "east broadway coffee"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
+    "primaryColor": "#0f172a",
+    "accentColor": "#f59e0b",
     "fontFamily": "modern"
   }
 }
