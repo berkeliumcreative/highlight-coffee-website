@@ -2,6 +2,7 @@
 "use client";
 
 import content from "../data/content.json";
+import { MinimalNav } from "@/components/ui/minimal-nav";
 import { HeroImageBg } from "@/components/ui/hero-image-bg";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { BlurFade } from "@/components/ui/blur-fade";
@@ -20,6 +21,20 @@ const iconMap: Record<string, any> = { Coffee, Zap, GlassWater, Croissant };
 export default function Page() {
   return (
     <main className="min-h-screen bg-background text-foreground">
+      <MinimalNav
+        logo={<span><span style={{ color: "var(--theme-accent)" }}>Highlight</span> Coffee</span>}
+        items={[
+          { label: "About", href: "#about" },
+          { label: "Menu", href: "#drinks" },
+          { label: "Gallery", href: "#gallery" },
+          { label: "Reviews", href: "#reviews" },
+          { label: "Hours", href: "#hours" },
+          { label: "Contact", href: "#contact" },
+        ]}
+        ctaText="📞 Call Now"
+        ctaHref={"tel:" + content.contact.phone}
+      />
+
       <HeroImageBg heading={content.hero.heading} subheading={content.hero.subheading} ctaText={content.hero.ctaText} ctaHref={content.hero.ctaLink} imageSrc={content.hero.backgroundImage} />
 
       <StatsSection
@@ -31,7 +46,7 @@ export default function Page() {
         ]}
       />
 
-      <section className="max-w-4xl mx-auto px-6 py-20 md:py-28">
+      <section id="about" className="max-w-4xl mx-auto px-6 py-20 md:py-28">
         <BlurFade delay={0.1}>
           <SectionHeading title={content.about.heading} />
           {content.about.paragraphs.map((p: string, i: number) => (
@@ -68,9 +83,8 @@ export default function Page() {
         </div>
       </section>
 
-
       {content.gallery && (
-        <section className="py-16">
+        <section id="gallery" className="py-16">
           <SectionHeading title={content.gallery.heading} />
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl mx-auto px-6 mt-8">
             {content.gallery.images.map((img: any, i: number) => (
@@ -82,7 +96,7 @@ export default function Page() {
         </section>
       )}
 
-      <section className="py-20 md:py-28 max-w-6xl mx-auto px-6">
+      <section id="reviews" className="py-20 md:py-28 max-w-6xl mx-auto px-6">
         <SectionHeading title="What Coffee Lovers Say" />
         <TestimonialGrid
           testimonials={content.reviews?.map((r: any) => ({
@@ -102,8 +116,8 @@ export default function Page() {
         ctaLink="https://maps.google.com/?q=Highlight+Coffee+Glendale"
       />
 
-      <section className="max-w-5xl mx-auto px-6 py-20 md:py-28 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-        <div>
+      <section id="hours" className="max-w-5xl mx-auto px-6 py-20 md:py-28 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+        <div id="contact">
           <SectionHeading title="Visit Us" />
           <HoursTable hours={content.contact.hours} />
           <p className="text-muted-foreground mt-6">{content.contact.address}</p>
