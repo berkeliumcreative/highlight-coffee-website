@@ -31,7 +31,7 @@ export default function Page() {
           { label: "Hours", href: "#hours" },
           { label: "Contact", href: "#contact" },
         ]}
-        ctaText="📞 Call Now"
+        ctaText="Call Now"
         ctaHref={"tel:" + content.contact.phone}
       />
 
@@ -113,7 +113,8 @@ export default function Page() {
         heading="Start Your Morning Right"
         subheading="Visit us on East Broadway for Glendale's best specialty coffee."
         ctaText="Get Directions"
-        ctaLink="https://maps.google.com/?q=Highlight+Coffee+Glendale"
+        ctaHref="https://maps.google.com/?q=Highlight+Coffee+Glendale"
+        variant="filled"
       />
 
       <section id="hours" className="max-w-5xl mx-auto px-6 py-20 md:py-28 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
